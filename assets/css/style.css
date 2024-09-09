@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+* {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0779E4;
+    height: 71px;
+    color: #FFFFFF;
+}
+
+
+.nav-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 70%;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.hero {
+    background-size: cover;
+    background-image: url(../images/hero_bg.png);
+    height: 100vh;
+    /* width: 100vw; */
+    padding-left: 10%;
+
+}
+
+.hero_info {
+    height: 60%;
+    padding-top: 10%;
+    color: white;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10%;
+    gap: 1rem;
+}
+
+.title {
+    font-size: 60px;
+}
+
+.btn_hire {
+    width: 20%;
+    background-color: blue;
+    color: white;
+    border-radius: 4px;
+    padding: 16px 24px;
+    outline: none;
+    border: none;
+}
+
+.btn_portfolio {
+    border-radius: 4px;
+    width: 30%;
+    background-color: white;
+    color: blue;
+    border-radius: 4px;
+    padding: 16px 24px;
+    outline: none;
+    border: none;
+}
